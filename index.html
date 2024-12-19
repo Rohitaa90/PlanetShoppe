@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanetShoppe</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Subrayada:wght@400;700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: white;
+
+        }
+        body{
+            font-family: "Montserrat Subrayada", serif;
+            background-color: #2c2c2c;
+        }
+        header{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 2px solid black;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        ul li a{
+            margin: 0 5px;
+            border: 2px solid white;
+            padding: 0px 10px;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+        .Logo{
+            border: 2px solid white;
+            padding: 10px 10px;
+        }
+        .Signup{
+            background-color: white;
+            color: black;
+        }
+        .Signup:hover{
+            background-color: black;
+            color: white;
+        }
+        main{
+            display: flex;
+            height: 90vh;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 0px 150px;
+        }
+        main p{
+            line-height: 30px;
+        }
+        .Cleft{
+            flex:1
+        }
+        .Cmid{
+            flex:2
+        
+        }
+        .Cright{
+            flex:1
+        }
+        .Image{
+            max-width: 500px;
+            height: auto;
+            cursor: pointer;
+        }
+        .btn{
+            background-color: white;
+            padding: 15px 30px;
+            outline: none;
+            border-color: aliceblue;
+            color: black;
+            cursor: pointer;
+            border-radius: 20px;
+            margin-top: 12px;
+        }
+        .btn:hover{
+            background-color: darkgrey;
+            color: white;
+            border: 2px solid white;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <header>
+        <div class="Logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="#">Sell Now</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="Signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="Cleft">
+            <h2>Mercury</h2>
+        </div>
+        <div class="Cmid">
+            <p>Mercury is the smallest planet in our solar system and the one closest to the Sun. Despite its proximity to the Sun, it is not the hottest planet, as Venus retains more heat due to its thick atmosphere. <br> Mercury has a thin atmosphere, known as an exosphere, composed mainly of oxygen, sodium, hydrogen, helium, and potassium. <br>This makes the planet unable to retain heat, causing extreme temperature variations between day and night.</p>
+            <button class="btn">Buy Now!</button>
+        </div>
+
+        <div class="Cright">
+            <img src="images/About.png" class="Image" alt="Mercury_Pic">
+        </div>
+    </main>
+
+    <footer>
+
+
+
+
+    </footer>
+    
+
+    
+</body>
+</html>
